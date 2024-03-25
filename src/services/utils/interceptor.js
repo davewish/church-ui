@@ -27,7 +27,8 @@ export const getRefreshToken = async () => {
   const refreshToken = parseAuth.tokens?.refresh_token;
   try {
     if (refreshToken) {
-      const response = await axios.get(import.meta.env.VITE_BASE_URL + "refresh", {
+      // TODO: Update the  correct path
+      const response = await axios.get(import.meta.env.VITE_BASE_URL + "api/auth/refresh", {
         headers: {
           Authorization: `Bearer ${refreshToken}`
         }
