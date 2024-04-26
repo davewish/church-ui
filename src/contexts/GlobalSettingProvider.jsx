@@ -2,10 +2,9 @@ import { createContext, useCallback, useContext, useEffect, useReducer } from "r
 
 import PropTypes from "prop-types";
 
+import config from "~/constants/endpoints.json";
 import useAxiosPrivate from "~/hooks/useAxiosPrivate";
 import { getSetting, setSetting } from "~/utils/settingsService";
-
-import config from "../constants/endpoints.json";
 
 const GlobalSettingContext = createContext({ state: {}, dispatch: () => {} });
 const currentConfig = import.meta.env.MODE === "development" ? config.test : config.prod;
