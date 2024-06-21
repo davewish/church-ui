@@ -8,7 +8,8 @@
     "file_list": "file_list",
     "userProfileAccessConfig": "user_profile",
     "languages": "languages",
-    "dictionaries": "dictionaries"
+    "dictionaries": "dictionaries",
+    "contents": "contents"
   },
   "prod": {
     "globalSetting": "global_setting",
@@ -19,6 +20,7 @@
     "file_list": "file_list",
     "userProfileAccessConfig": "user_profile",
     "languages": "languages",
-    "dictionaries": "dictionaries"
+    "dictionaries": "dictionaries",
+    "contents": "contents"
   }
 }
